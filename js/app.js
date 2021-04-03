@@ -1,6 +1,7 @@
 'use strict';
 let score=0;
 let userName=prompt('what is your name');
+
 while (!userName) {
   alert('pleas write your name');
   userName=prompt('what is your name');
@@ -48,10 +49,12 @@ if (loveProgramming==='yes' || loveProgramming==='y') {
 }else{
   alert('Please this is yes-no questions so you can ONLY answer yes or no!!!');
 }
+
 // fourth question
 let passScholarship=prompt('Do you think I can successfully pass this scholarship?');
 passScholarship=passScholarship.toLowerCase();
 //console.log(PassScholarship);
+
 if (passScholarship==='yes' || passScholarship==='y') {
 
   alert('Thanks for your trust in me, I will do my best for this scholarship.');
@@ -62,7 +65,6 @@ if (passScholarship==='yes' || passScholarship==='y') {
 }else{
   alert('Please this is yes-no questions so you can ONLY answer yes or no!!!');
 }
-
 //fifth question
 let myTall=prompt('Do you think I am tall?');
 myTall=myTall.toLowerCase();
@@ -79,31 +81,33 @@ if (myTall==='yes' || myTall==='y') {
 }
 
 //  sixth question
-let favoriteNumber=prompt('Guess what is my favorite number between 1 and 10');
-favoriteNumber=parseInt(favoriteNumber);
+let favoriteNumber=null;
+
 for(let i=0;i<4;i++){
+  favoriteNumber=prompt('Guess what is my favorite number between 1 and 10');
+  favoriteNumber=parseInt(favoriteNumber);
   if (favoriteNumber === 7){
     score++;
+    alert('correct answer');
     console.log('sixth',score);
     break;
   }else if(favoriteNumber > 7){
     console.log(favoriteNumber ,'>7');
-    favoriteNumber=prompt('too high, try agin');
-    favoriteNumber=parseInt(favoriteNumber);
+    favoriteNumber=alert('too high, try agin');
   }else if(favoriteNumber < 7){
     console.log( favoriteNumber ,'<7');
-    favoriteNumber=prompt('too low, try agin');
-    favoriteNumber=parseInt(favoriteNumber);
+    favoriteNumber=alert('too low, try agin');
   }
-
+  if( i===3){
+    alert('the correct answer is 7');
+  }
 }
-alert('the correct answer is 7');
+
 //seventh question
 let trials=0;
 let correct=true;
 let favoritePlayer=['ronaldo','Ronaldinho','Marcelo','Zidan'];
-do {
-  let theplayer=prompt('Who is my favorite player');
+do { let theplayer=prompt('Who is my favorite player');
   for(let j=0; j<4; j++){
     if(theplayer===favoritePlayer[j]){
       score++;
