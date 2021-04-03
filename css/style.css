@@ -13,48 +13,53 @@ h1{
     text-align: center;
     padding-top: 15px;
     font-size: 100px; 
+    font-family: 'Yatra One', cursive;
 }
 main{
     background-color:#34495E ;
+    margin-top: 15px;
 }
 #para1{
-    font-size: 40px;
-    color:  #95A5A6 ;
-    margin-top: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
+    list-style-type: circle;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 35px;
+    color:#95A5A6 ;
 }
 #uni{
     list-style-type: circle;
     padding-left: 50px;
     padding-top: 15px;
-    font-size: 25px;
+    font-size: 35px;
     color:#95A5A6 ;
 }
 #para2{
-    font-size: 40px;
-    color:  #95A5A6 ;
-    margin-top: 15px;
-    padding-left: 15px;
+    list-style-type: circle;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 35px;
+    color:#95A5A6 ;
 }
 #work{
     list-style-type: circle;
     padding-left: 50px;
     padding-top: 15px;
-    font-size: 25px;
+    font-size: 35px;
     color:#95A5A6 ;
 }
 #para3{
-    font-size: 40px;
-    color:  #95A5A6 ;
-    margin-top: 15px;
-    padding-left: 15px;
+    list-style-type: circle;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 35px;
+    color:#95A5A6 ;
 }
 h2{
     color: #95A5A6;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
     font-size: 50px; 
+    font-family: 'Yatra One', cursive;
 }
 .a{
     list-style-type: decimal;

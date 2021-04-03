@@ -1,4 +1,4 @@
-# LAB - 02
+# LAB - 05b
 
 ## aboutme-game
 
@@ -6,11 +6,12 @@ I built a website with a quiz game. The content of the questions is information 
 
 ### Author: Mo'tasim Al-Azzam
 ### I was Driver on: https://github.com/motasimalazzam/aboutme-game
+
 ### Reflections and Comments
 
 * How did this go, overall?
 
-* In the beginning it seemed easy, but upon implementation, difficulties arose, especially in creating the last question. I faced a problem in calculating the final result and I performed all the possibilities that I know, and finally I solved the problem.
+* It was fun adding colors and designs to the project using CSS and exploring the features that could be added
 
 * What observations or questions do you have about what you’ve learned so far?
 
@@ -18,4 +19,4 @@ I built a website with a quiz game. The content of the questions is information 
 
 * How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
-* Frankly I thought it wouldn't take more than two hours but it took more than 6 hours to solve a problem in calculating the score in the last question.
+* It took me about two hours and that's almost what I expected
